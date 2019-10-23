@@ -1,0 +1,394 @@
+#titlepage{
+	height:100vh;
+	width:100vw;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+#title{
+	font-size: 100px;
+	position:relative;
+	display: flex;
+	flex-direction: column;
+}
+#subtitle{
+	font-size: 15px;
+	text-align: center;
+
+}
+#cloud1{
+	position:absolute;
+	height: 90px;
+	width: 270px;
+	z-index: 1;
+	top:-22%;
+	right: -15%;
+	opacity:0.8;
+}
+#cloud2{
+	position:absolute;
+	height: 180px;
+	width: 650px;
+	z-index: 1;
+	bottom:-60%;
+	right: -90%;
+	opacity: 0.8;
+}
+#cloud3{
+	position:absolute;
+	height: 100px;
+	width: 350px;
+	z-index: 1;
+	top:20%;
+	left: -42%;
+	opacity:0.8;
+}
+#cloud4{
+	position:absolute;
+	height: 250px;
+	width: 750px;
+	z-index: 1;
+	bottom:190%;
+	left: -100%;
+	opacity:0.8;
+}
+#cloud5{
+	position:absolute;
+	height: 180px;
+	width: 980px;
+	z-index: 1;
+	bottom:-140%;
+	left: -100%;
+	opacity:0.8;
+}
+#cloud6{
+	position:absolute;
+	height: 120px;
+	width: 850px;
+	z-index: 1;
+	top:-120%;
+	right: -150%;
+	opacity:0.8;
+}
+
+#about{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+#cliff{
+	height: auto;
+	width:100%;
+	object-fit: contain;
+}
+
+#meditation{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+}
+#meditation1{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+#homepage1{
+	width: 30%;
+	height: auto;
+	padding-left: 3.5%;
+}
+#homepage2{
+	width: 100%;
+	height: auto;
+	float:left;
+}
+#meditation1 p {
+	padding-top: 150%;
+}
+#m1h2{
+	width: 30%;
+	display: block;
+	margin:0 auto;
+}
+#meditation2{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#courseoptions1{
+	width: 100%;
+	height: auto;
+}
+#meditationsess{
+	width: 100%;
+	height: auto;
+}
+#cobox1{
+	width:27vw;
+	height:5vw;
+	border:2px solid #FF6700;
+}
+#cobox2{
+	width:11vw;
+	height:12vw;
+	border:2px solid #FF6700;
+}
+#meditation3{
+	position: relative;
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:5%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#courseoptions2{
+	width: 35%;
+	height: auto;
+}
+#meditation3 p{
+	padding-left:30px;
+}
+#sleep{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	background-color:#483D8B;
+}
+#sleep1{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+#sleep p{
+	color:white;
+}
+#s1s1{
+	width: 70%;
+	display: block;
+	margin:0 auto;
+}
+#sleepsounds{
+	width:45%;
+	height:auto;
+	padding-right:3.25vw;
+}
+#winddowns{
+	width:45%;
+	height:auto;
+}
+#sleepcastex{
+	width:100%;
+	height:auto;
+}
+#personalexperience{
+	padding: 30px;
+	background-color:#FFF5EE;
+}
+#stats{
+	width:90%;
+	height:auto;
+}
+#integration{
+	padding: 30px;
+}
+#features{
+	padding:10%;
+}
+
+
+
+.img{
+	width: 100%;
+	height:auto;
+}
+.flexrow{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+.hoverfade{
+	opacity:1;
+	display:block;
+	transition:1s ease;
+	backface-visibility: hidden;
+}
+.hovermiddle{
+	transition:1s ease;
+	opacity:0;
+	position: absolute;
+	top:30%;
+	left:50%;
+	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%)
+}
+.hovermiddle2{
+	transition:1s ease;
+	opacity:0;
+	position: absolute;
+	top:30%;
+	left:30%;
+	transform: translate(-20%, -20%);
+  	-ms-transform: translate(-50%, -50%)
+}
+.hovertext{
+	color:#FF6700;
+	font-size:2vw;
+	font-family: "Courier New";
+	text-align: center;
+	background:rgba(255,255,255,0.6);
+}
+.hoverbox1{
+	transition:1s ease;
+	opacity:0;
+	position: absolute;
+	top:45%;
+	left:50%;
+	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%)
+}
+.hoverbox2{
+	transition:1s ease;
+	opacity:0;
+	position: absolute;
+	top:72%;
+	left:50%;
+	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%)
+}
+.container{
+	position: relative;
+	width:30%;
+	padding:20px;
+}
+.container:hover #courseoptions1{
+	opacity:0.35;
+}
+.container:hover .hoverbox1{
+	opacity:1;
+}
+
+.container:hover #meditationsess{
+	opacity:0.35;
+}
+.container:hover .hoverbox2{
+	opacity:1;
+}
+.container:hover .hovermiddle{
+	opacity:1;
+}
+.container:hover .hovermiddle2{
+	opacity:1;
+}
+.container:hover #buddies{
+	opacity:0.2;
+}
+.container:hover #streaks{
+	opacity: 0.2;
+}
+.container:hover #siri{
+	opacity: 0.3;
+}
+.blue {
+	color: #6495ED;
+}
+.orange{
+	color: #FF6700;
+}
+.couriernew {
+	font-family: "Courier New";
+	font-weight: 100;
+}
+.center{
+	text-align: center;
+}
+.flexcol{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+.bold{
+	font-weight: bold;
+}
+.ff{
+	width:45%;
+}
+.flexcenter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.flip-box{
+	background-color: transparent;
+	width:20%;
+	height:15vw;
+	perspective: 1000px;
+	padding:10px;
+}
+.flip-box-inner{
+	position: relative;
+	width:100%;
+	height:100%;
+	text-align: center;
+	transition: transform 1s;
+	transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner{
+	transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back{
+	position: absolute;
+	width:100%;
+	height:100%;
+	backface-visibility: hidden;
+}
+.flip-box-front{
+	background-color: #FFDAB9;
+	color:#FF6700;
+	}
+.flip-box-back{
+	background-color: #FFDAB9;
+	color:black;
+	transform:rotateY(180deg);
+}
+.right{
+	text-align: right
+}
+
+
+
+body {
+	background-color: #FFF5EE;
+}
+h1 {
+	color: #FF6700;
+	font-family: "Courier New";
+	font-weight: 100;
+	/*text-align: center;*/
+}
+h3 {
+	color: #6495ED;
+	font-family: "Courier New";
+	font-weight: 100;
+}
+h4{
+	color: #FF6700;
+	font-family: "Courier New";
+	font-weight: 100;
+}
+p {
+	font-family: "Courier New";
+}
