@@ -18,6 +18,83 @@
 	text-align: center;
 
 }
+#clouddivide{
+	height:30vh;
+	width:100vw;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#c{
+	position:absolute;
+	height: 90px;
+	width: 270px;
+	z-index: 1;
+	top:0%;
+	right: 0%;
+	opacity:0.6;
+}
+#c2{
+	position:absolute;
+	height: 180px;
+	width: 540px;
+	z-index: 1;
+	top:30%;
+	right: 50%;
+	opacity:0.6;
+}
+#c3{
+	position:absolute;
+	height: 100px;
+	width: 300px;
+	z-index: 1;
+	top:30%;
+	right: 40%;
+	opacity:0.6;
+}
+#c4{
+	position:absolute;
+	height: 90px;
+	width: 270px;
+	z-index: -1;
+	top:-10%;
+	left: -20%;
+	opacity:0.6;
+}
+#c5{
+	position:absolute;
+	height: 120px;
+	width: 360px;
+	z-index: 1;
+	bottom:-40%;
+	right: 0%;
+	opacity:0.6;
+}
+
+#clouds{
+	height:0vh;
+	width:100vw;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#clouds2{
+	height:25vh;
+	width:100vw;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#c1{
+	position:absolute;
+	height: 70vh;
+	opacity: 0.8;
+}
+
+
 #cloud1{
 	position:absolute;
 	height: 90px;
@@ -91,7 +168,7 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	padding: 30px;
+	padding: 10%;
 }
 #meditation1{
 	position: relative;
@@ -162,7 +239,7 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	padding: 30px;
+	padding: 10%;
 	background-color:#483D8B;
 }
 #sleep1{
@@ -193,7 +270,7 @@
 	height:auto;
 }
 #personalexperience{
-	padding: 30px;
+	padding: 10%;
 	background-color:#FFF5EE;
 }
 #stats{
@@ -201,14 +278,33 @@
 	height:auto;
 }
 #integration{
-	padding: 30px;
+	padding: 10%;
 }
 #features{
 	padding:10%;
 }
+#improvements{
+	padding:10%;
+}
+#end{
+	padding:10%;
+}
+#more1 {display:none;}
+#more2 {display:none;}
+#more3 {display:none;}
+#more4 {display:none;}
+#more5 {display:none;}
+#more6 {display:none;}
+#more7 {display:none;}
 
 
-
+.readmore {
+	font-family: "Courier New";  
+	border:none; 
+	background-color:#FFF5EE;
+	font-size: 15px;
+	text-align: left;
+	color: #6495ED;}
 .img{
 	width: 100%;
 	height:auto;
@@ -366,6 +462,12 @@
 }
 .right{
 	text-align: right
+}
+.improvementrow{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
 }
 
 
